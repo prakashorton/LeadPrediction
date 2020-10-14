@@ -1,0 +1,213 @@
+.grid-container{
+  display: grid;
+  height: 100%;
+  grid-template-rows: 10% auto 10%;
+}
+
+.grid-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-title {
+  color: white;
+}
+
+#components-layout-demo-responsive .logo {
+  height: 32px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px;
+}
+
+.site-layout-sub-header-background {
+  background: #fff;
+}
+
+.site-layout-background {
+  background: #fff;
+}
+
+.grid-content .ant-layout{
+  height: 100%;
+}
+
+.mainLogo{
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 22px;
+  margin: 0 0 0 12px;
+  font-family: 'Myriad Pro', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+
+.ant-layout-sider{
+  flex: 0 0 240px !important;
+  max-width: 240px !important;
+  min-width: 240px !important;
+  width: 240px !important;
+}
+
+.ant-menu-item .anticon, .ant-menu-submenu-title .anticon {
+  font-size: 20px;
+}
+
+.alignCenter{
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  justify-content: center;
+  font-family: 'Myriad Pro', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+
+.alignLeft{
+  display: flex;
+  font-size: 20px;
+  font-family: 'Myriad Pro', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+
+.logo {
+  height: 64px;
+  position: relative;
+  line-height: 64px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  overflow: hidden;
+}
+.logo img {
+  display: inline-block;
+  vertical-align: middle;
+  height: 40px;
+}
+.logo h1 {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 25px;
+  margin: 0 0 0 15px;
+  font-family: 'Myriad Pro', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+
+.ant-btn.btn-github {
+  position: absolute;
+  right: 0px;
+  top: 15px;
+}
+.ant-btn.btn-github img {
+  height: 24px;
+  margin-right: 8px;
+}
+.ant-btn.btn-github span {
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.margin-left15{
+  margin-left: 15px;
+}
+
+.grid-content > .ant-layout-content{
+  flex: none;
+  width: 50%;
+}
+
+.textCenter{
+  text-align: center;
+}
+
+.ant-layout-footer {
+  padding: 24px 50px;
+  color: white;
+  font-size: 14px;
+  background: #001529;
+}
+
+.homeContainer {
+  height: 100%;
+}
+
+.homeContainer .ant-layout-footer {
+  padding: 10px;
+  color: white;
+  font-size: 14px;
+  background: #001529;  
+}
+
+.grid-content .ant-layout-content {
+  padding: 20px 50px !important;
+  background: #001529;
+  color: white;
+  border-radius: 15px;
+}
+
+.grid-content button {
+  color: #001529 !important;
+  background: white !important;
+}
+
+.grid-content h1 {
+  color: white;
+}
+
+.grid-content label {
+  color: white;
+}
+
+.grid-content .ant-divider-horizontal {
+  color: white;
+}
+
+.homeContainer .ant-layout {
+  height: 100%;
+}
+
+.holder {
+  display: grid;
+  grid-template-columns: 30% auto;
+  /* grid-gap: 20px; */
+}
+
+.width100 {
+  width: 100%;
+}
+
+.ant-empty{
+  margin-top: 50px;
+}
+
+.site-layout-background{
+  max-height: 100%;
+  /* overflow-y: scroll; */
+}
+
+.site-custom-tab-bar {
+  z-index: 1;
+  background: #fff;
+}
+
+.name{
+  text-transform: capitalize;
+  /* font-style: italic;
+  font-family: cursive; */
+}
+
+.ant-empty-description{
+  display: none;
+}
+.ant-input-affix-wrapper-lg {
+  border-radius: 10px;
+}
+
+.firmPage .ant-result{
+  padding: 0px ;
+}
+
+.site-statistic-demo-card {
+  padding: 40px !important;
+  background: #f0f2f5 !important;
+}
